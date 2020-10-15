@@ -1,0 +1,17 @@
+Salut
+Zu der JSONRPC Klasse hier noch paar Infos:
+Doku:
+https://www.symcon.de/service/dokumentation/entwicklerbereich/datenaustausch/“
+Beispiel Verwendung:
+<?php
+// import File
+require_once('scripts/JSONRPC.php');
+
+// instanziere Objekt für kommunikation
+// FORMAT: JSONRPC("http://USER:PASSWORT@IP/api/");
+$rpc = new JSONRPC("http://symcon+Brelag5452@brelag.com:brelagSym@aa4141ea65a17bf2980885b955b81352.ipmagic.de/api/");
+
+// daten austauschen
+echo $rpc->GetValueFormatted(56965)."<br>";
+
+Die Daten werden mittels POST Methode übertragen, deshalb kann der link nicht einfach direkt im Webbrowser aufgerufen werden. (bzw. man kann keine Funktion aufrufen)

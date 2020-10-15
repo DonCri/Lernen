@@ -1,0 +1,16 @@
+body {
+    background-color: white;
+}
+
+p {
+    color: black;
+}
+
+span {
+    color: black;
+}
+
+div {
+    border: green;
+    border-radius: 2px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta c harset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="javascript/websocket.js"></script> 
+    <script src="javascript/firststep.js"></script>
+    
+</head>
+
+<body>
+
+<div> 
+    <div> <h1 id="Test"> Ich lerne JavaScript </h1> </div>
+    <div> <b> Aktuelle WebSocket Werte: </b> </div>
+    <div> <p> <b> InstanzID: </b> <span id="Instanz"> </span> <br> 
+                <b> Wert: </b> <span id="InstanzValue"> </span> 
+            </p> </div>
+    <div>  </div>
+
+    <div> <p><b>Magnetschalter Zimmer</b></p></div>
+    <div> <b>Status: </b> <span id="TFKStatus"></span> </div>
+    <div> <b>Aktuallisierung: </b> <span id="TFKTime"></span> </div>
+</div>
+
+<div id="AjaxDemo"> </div>
+
+<script src="javascript/jsonrpc.js"></script>
+
+
+
+</body>
+
+</html>
